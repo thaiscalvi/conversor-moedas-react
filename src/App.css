@@ -1,0 +1,92 @@
+/* Reset padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #e0f7fa, #e1bee7); /* Degradê leve e moderno */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Input ajustado */
+.input-moeda {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f3f4f6;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2); /* leve profundidade */
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.input-moeda:focus {
+  outline: none;
+  background-color: #e0f2f1;
+  box-shadow: 0 0 0 2px #42a5f5; /* efeito de foco moderno */
+}
+
+.input-moeda::placeholder {
+  text-align: center;
+}
+
+/* Resultado */
+.resultado {
+  background-color: #f3f4f6;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.resultado p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Botões estilosos */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+.btn-trocar {
+  background-color: #ff7043; /* Laranja */
+}
+
+.btn-converter {
+  background-color: #66bb6a; /* Verde */
+}
+
+.btn-limpar {
+  background-color: #ab47bc; /* Roxo */
+}
