@@ -1,12 +1,52 @@
-# React + Vite
+💱 Conversor de Moeda – React  
+🔗 [Acesse o projeto clicando aqui](https://thaiscalvi.github.io/conversor-moedas-react/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+📌 **Sobre o Projeto**  
+Este é um projeto de conversor de moedas desenvolvido com React JS.  
+Ele permite converter valores entre Real (R$) e Dólar (US$).  
+O objetivo foi treinar o uso de estados, eventos e renderização condicional no React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+💡 **O que eu treinei**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Controle de estados com `useState`  
+🔁 Alternar entre real → dólar e dólar → real  
+🖱️ Manipulação de eventos com `onClick`  
+🎯 Lógica de conversão com formatação de valores  
+💬 Placeholder e texto dinâmico com base na moeda selecionada  
+🎨 Estilização moderna com CSS puro  
+💻 Publicação do projeto com GitHub Pages  
+
+---
+
+💾 **Funcionalidades implementadas**
+
+✔️ Input para digitar o valor  
+✔️ Botão “Converter” para exibir o resultado  
+✔️ Botão “Trocar” para alternar entre real ↔ dólar  
+✔️ Botão “Limpar” para resetar o campo e resultado  
+✔️ Mensagem de assinatura com ♥ no rodapé  
+✔️ Estilo colorido, limpo e responsivo  
+
+---
+
+💻 **Tecnologias utilizadas**
+
+- React JS  
+- JavaScript (ES6+)  
+- CSS3  
+- Vite  
+- Git e GitHub  
+- GitHub Pages  
+
+---
+
+🚀 **Acesse o Projeto**  
+👉 [Clique aqui para testar!](https://thaiscalvi.github.io/conversor-moedas-react/)
+
+---
+
+✨ Feito com ♥ por Thais Calvi
