@@ -50,6 +50,8 @@ function App() {
        <button className="btn-converter" onClick={handleClickResultado}>Converter</button>
        <button  className="btn-limpar" onClick={handleClickLimpar}>Limpar</button>
 
+      <p className="assinatura">Feito com ♥ por Thais Calvi</p>
+      
     </div>
     </>
   )

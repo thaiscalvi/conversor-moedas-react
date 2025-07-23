@@ -98,3 +98,11 @@ button:hover {
   margin-bottom: 24px;
   font-weight: bold;
 }
+
+.assinatura{
+  margin-top: 24px;
+  font-size: 14px;
+  color: #2e3968;
+  font-weight: 500;
+  opacity: 0.8;
+}
