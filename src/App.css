@@ -90,3 +90,11 @@ button:hover {
 .btn-limpar {
   background-color: #ab47bc; /* Roxo */
 }
+
+.titulo {
+  font-size: 28px;
+  color: #1b349a; /* roxo bonito */
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: bold;
+}

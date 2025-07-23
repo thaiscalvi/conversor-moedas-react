@@ -32,6 +32,9 @@ function App() {
   return (
     <>
      <div className="container">
+
+      <h1 className="titulo">Conversor de Moeda</h1>
+
         <input type="number" 
          className="input-moeda"
         placeholder={trocar === "reais" ? "Digite o valor em R$" : "Digite o valor em $"}
